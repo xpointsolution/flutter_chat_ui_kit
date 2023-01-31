@@ -1,11 +1,10 @@
 name: chat_ui_kit
 description: A complete Flutter chat UI kit which provides you with a base structure as well as a set of tools that allow you to quickly build up a modern chat UI.
-version: 1.4.1
+version: 1.4.2
 homepage: https://github.com/themadmrj/chat_ui_kit
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
@@ -16,7 +15,7 @@ dependencies:
   just_audio: ^0.9.10 #play audio files
   flutter_video_info: ^1.2.0 #retrieve video metadata
   video_thumbnail: ^0.5.2 #get a thumbnail from a file
-  collection: ^1.15.0
+  collection: ^1.17.0
 
 
 dev_dependencies:
