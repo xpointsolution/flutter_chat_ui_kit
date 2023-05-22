@@ -1,3 +1,6 @@
+## [1.5.0] - 22/05/2023
+* Updated dependencies to work with flutter 3.7
+* Small adjustments to docs
 ## [1.4.3] - 01/09/2022
 
 * Renamed name of the package
