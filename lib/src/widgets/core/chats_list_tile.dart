@@ -1,8 +1,8 @@
-import 'package:chat_ui_kit/src/models/chat_base.dart';
-import 'package:chat_ui_kit/src/widgets/helpers/group_avatar.dart';
+import 'package:chat_ui_kit2/src/models/chat_base.dart';
+import 'package:chat_ui_kit2/src/widgets/helpers/group_avatar.dart';
 import 'package:flutter/material.dart';
-import 'package:chat_ui_kit/src/utils/builders.dart';
-import 'package:chat_ui_kit/src/utils/date_formatter.dart';
+import 'package:chat_ui_kit2/src/utils/builders.dart';
+import 'package:chat_ui_kit2/src/utils/date_formatter.dart';
 
 class ChatsListTileBuilders<T extends ChatBase> {
   /// Pass a custom leading Widget to replace the default in [ChatsListTile._buildLeading]

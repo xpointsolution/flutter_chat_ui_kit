@@ -1,15 +1,15 @@
-import 'package:chat_ui_kit/src/models/message_base.dart';
-import 'package:chat_ui_kit/src/styling/message_style.dart';
-import 'package:chat_ui_kit/src/utils/controllers.dart';
-import 'package:chat_ui_kit/src/utils/date_formatter.dart';
-import 'package:chat_ui_kit/src/utils/enums.dart';
-import 'package:chat_ui_kit/src/widgets/core/incoming_message.dart';
-import 'package:chat_ui_kit/src/widgets/core/messages_list.dart';
-import 'package:chat_ui_kit/src/widgets/core/outgoing_message.dart';
-import 'package:chat_ui_kit/src/widgets/helpers/date_label.dart';
+import 'package:chat_ui_kit2/src/models/message_base.dart';
+import 'package:chat_ui_kit2/src/styling/message_style.dart';
+import 'package:chat_ui_kit2/src/utils/controllers.dart';
+import 'package:chat_ui_kit2/src/utils/date_formatter.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/widgets/core/incoming_message.dart';
+import 'package:chat_ui_kit2/src/widgets/core/messages_list.dart';
+import 'package:chat_ui_kit2/src/widgets/core/outgoing_message.dart';
+import 'package:chat_ui_kit2/src/widgets/helpers/date_label.dart';
 import 'package:flutter/material.dart';
 
-import 'package:chat_ui_kit/src/utils/builders.dart';
+import 'package:chat_ui_kit2/src/utils/builders.dart';
 import 'package:functional_widget_annotation/functional_widget_annotation.dart';
 
 part 'messages_list_tile.g.dart';

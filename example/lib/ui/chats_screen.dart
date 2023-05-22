@@ -1,4 +1,4 @@
-import 'package:chat_ui_kit/chat_ui_kit.dart';
+import 'package:chat_ui_kit2/chat_ui_kit2.dart';
 import 'package:example/models/chat.dart';
 import 'package:example/models/chat_message.dart';
 import 'package:example/ui/chat_viewmodel.dart';
@@ -141,7 +141,8 @@ class _ChatsScreenSate extends State<ChatsScreen> {
             appUserId: _model.localUser.id,
             scrollHandler: handleScrollEvent,
             groupAvatarStyle: GroupAvatarStyle(
-                mode: GroupAvatarMode.stackedCircles, stackedBorder: Border.all(color: Colors.white, width: 2.0)),
+                mode: GroupAvatarMode.stackedCircles,
+                stackedBorder: Border.all(color: Colors.white, width: 2.0)),
             builders: ChatsListTileBuilders(
                 groupAvatarBuilder:
                     (context, imageIndex, itemIndex, size, item) {

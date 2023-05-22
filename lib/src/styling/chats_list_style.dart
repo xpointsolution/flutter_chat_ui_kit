@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chat_ui_kit/src/widgets/core/chats_list.dart';
+import 'package:chat_ui_kit2/src/widgets/core/chats_list.dart';
 
 /// Styling and settings for [ChatsList].
 class ChatsListStyle {

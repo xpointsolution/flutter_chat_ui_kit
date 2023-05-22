@@ -1,16 +1,16 @@
-import 'package:chat_ui_kit/src/styling/message_style.dart';
-import 'package:chat_ui_kit/src/utils/controllers.dart';
-import 'package:chat_ui_kit/src/utils/enums.dart';
-import 'package:chat_ui_kit/src/widgets/core/messages_list_tile.dart';
-import 'package:chat_ui_kit/src/widgets/helpers/date_label.dart';
-import 'package:chat_ui_kit/src/utils/extensions.dart';
+import 'package:chat_ui_kit2/src/styling/message_style.dart';
+import 'package:chat_ui_kit2/src/utils/controllers.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/widgets/core/messages_list_tile.dart';
+import 'package:chat_ui_kit2/src/widgets/helpers/date_label.dart';
+import 'package:chat_ui_kit2/src/utils/extensions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:functional_widget_annotation/functional_widget_annotation.dart';
 import 'package:implicitly_animated_reorderable_list_2/implicitly_animated_reorderable_list_2.dart';
 import 'package:implicitly_animated_reorderable_list_2/transitions.dart';
 
-import 'package:chat_ui_kit/src/models/message_base.dart';
+import 'package:chat_ui_kit2/src/models/message_base.dart';
 
 part 'messages_list.g.dart';
 

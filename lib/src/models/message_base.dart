@@ -1,4 +1,4 @@
-import 'package:chat_ui_kit/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
 
 import './user_base.dart';
 

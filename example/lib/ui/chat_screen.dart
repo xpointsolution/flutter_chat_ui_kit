@@ -1,4 +1,4 @@
-import 'package:chat_ui_kit/chat_ui_kit.dart' hide ChatMessageImage;
+import 'package:chat_ui_kit2/chat_ui_kit2.dart' hide ChatMessageImage;
 import 'package:example/models/chat.dart';
 import 'package:example/models/chat_user.dart';
 import 'package:flutter/material.dart';

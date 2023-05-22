@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chat_ui_kit/src/widgets/core/messages_list.dart';
+import 'package:chat_ui_kit2/src/widgets/core/messages_list.dart';
 
 enum AvatarBehaviour { alwaysTop, alwaysBottom }
 

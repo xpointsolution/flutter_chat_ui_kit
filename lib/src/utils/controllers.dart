@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:chat_ui_kit/src/models/chat_base.dart';
-import 'package:chat_ui_kit/src/models/message_base.dart';
-import 'package:chat_ui_kit/src/utils/enums.dart';
-import 'package:chat_ui_kit/src/utils/selection_event.dart';
+import 'package:chat_ui_kit2/src/models/chat_base.dart';
+import 'package:chat_ui_kit2/src/models/message_base.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/utils/selection_event.dart';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/material.dart';
 

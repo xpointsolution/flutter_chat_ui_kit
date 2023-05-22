@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:chat_ui_kit/chat_ui_kit.dart';
+import 'package:chat_ui_kit2/chat_ui_kit2.dart';
 import '../models/fake_models.dart';
 
 void main() {
@@ -112,12 +112,12 @@ void main() {
       expect(controller.selectionEventStream, emitsDone);
       controller.dispose();
     });
-
   });
 
   test('Test ChatsListController updateById method', () {
     final fake1 = FakeChat();
-    final controller = ChatsListController(items: [FakeChat(), FakeChat(), fake1]);
+    final controller =
+        ChatsListController(items: [FakeChat(), FakeChat(), fake1]);
     final fake2 = FakeChat();
     fake2.id = fake1.id;
     fake2.name = 'test';

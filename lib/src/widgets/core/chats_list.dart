@@ -1,13 +1,13 @@
-import 'package:chat_ui_kit/src/styling/chats_list_style.dart';
-import 'package:chat_ui_kit/src/utils/controllers.dart';
+import 'package:chat_ui_kit2/src/styling/chats_list_style.dart';
+import 'package:chat_ui_kit2/src/utils/controllers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:implicitly_animated_reorderable_list_2/implicitly_animated_reorderable_list_2.dart';
 import 'package:implicitly_animated_reorderable_list_2/transitions.dart';
 
-import 'package:chat_ui_kit/src/models/chat_base.dart';
-import 'package:chat_ui_kit/src/widgets/core/chats_list_tile.dart';
-import 'package:chat_ui_kit/src/widgets/helpers/group_avatar.dart';
+import 'package:chat_ui_kit2/src/models/chat_base.dart';
+import 'package:chat_ui_kit2/src/widgets/core/chats_list_tile.dart';
+import 'package:chat_ui_kit2/src/widgets/helpers/group_avatar.dart';
 
 class ChatsList<T extends ChatBase> extends StatefulWidget {
   ChatsList(

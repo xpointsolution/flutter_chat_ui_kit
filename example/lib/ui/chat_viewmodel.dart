@@ -2,7 +2,7 @@ import 'package:example/models/chat.dart';
 import 'package:example/models/chat_message.dart';
 import 'package:example/models/chat_user.dart';
 import 'package:example/utils/app_const.dart';
-import 'package:chat_ui_kit/chat_ui_kit.dart';
+import 'package:chat_ui_kit2/chat_ui_kit2.dart';
 
 class ChatViewModel {
   ChatViewModel() {

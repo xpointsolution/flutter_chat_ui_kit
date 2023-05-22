@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:chat_ui_kit/chat_ui_kit.dart';
+import 'package:chat_ui_kit2/chat_ui_kit2.dart';
 
 void main() {
   testWidgets('Test the GroupAvatar Widget', (WidgetTester tester) async {

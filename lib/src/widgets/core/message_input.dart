@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:chat_ui_kit/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
 import 'package:flutter/material.dart';
 
 /// A typing handler that will emit a [TypingEvent] when necessary

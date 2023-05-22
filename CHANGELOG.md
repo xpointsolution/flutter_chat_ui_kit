@@ -1,3 +1,8 @@
+## [1.4.3] - 01/09/2022
+
+* Renamed name of the package
+* Replaced deprecated theme.background
+
 ## [1.4.0] - 01/09/2022
 
 * Upgrade to Flutter 3.0 (thnx to https://github.com/xpointsolution)

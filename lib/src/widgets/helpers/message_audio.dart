@@ -1,8 +1,8 @@
-import 'package:chat_ui_kit/src/models/message_base.dart';
-import 'package:chat_ui_kit/src/utils/enums.dart';
-import 'package:chat_ui_kit/src/utils/extensions.dart';
-import 'package:chat_ui_kit/src/widgets/core/messages_list_tile.dart';
-import 'package:chat_ui_kit/src/widgets/helpers/message_container.dart';
+import 'package:chat_ui_kit2/src/models/message_base.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/utils/extensions.dart';
+import 'package:chat_ui_kit2/src/widgets/core/messages_list_tile.dart';
+import 'package:chat_ui_kit2/src/widgets/helpers/message_container.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 

@@ -1,5 +1,5 @@
-import 'package:chat_ui_kit/src/utils/colors.dart';
-import 'package:chat_ui_kit/src/utils/enums.dart';
+import 'package:chat_ui_kit2/src/utils/colors.dart';
+import 'package:chat_ui_kit2/src/utils/enums.dart';
 import 'package:flutter/material.dart';
 
 class MessageContainerStyle {}

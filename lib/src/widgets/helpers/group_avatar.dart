@@ -191,7 +191,7 @@ Widget _buildStackedAvatar<T>(BuildContext context, List<T> items,
       decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: border,
-          color: Theme.of(context).backgroundColor),
+          color: Theme.of(context).colorScheme.background),
       child: ClipOval(
           child: builder.call(context, index, Size(size, size), items)));
 }
@@ -205,7 +205,7 @@ Widget _buildSeparator(BuildContext context, GroupAvatarStyle style,
   return Container(
       width: width,
       height: height,
-      color: style.separatorColor ?? Theme.of(context).backgroundColor);
+      color: style.separatorColor ?? Theme.of(context).colorScheme.background);
 }
 
 /// Build the aligned group avatar itself

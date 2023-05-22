@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:chat_ui_kit/src/utils/extensions.dart';
+import 'package:chat_ui_kit2/src/utils/extensions.dart';
 
 void main() {
   test('Test isBeforeAndDifferentDay property', () {
@@ -14,5 +14,4 @@ void main() {
     expect(now.isBeforeAndDifferentDay(now), false);
     expect(yesterday.isBeforeAndDifferentDay(yesterday), false);
   });
-
 }

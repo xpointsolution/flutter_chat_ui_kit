@@ -1,6 +1,6 @@
-import 'package:chat_ui_kit/src/models/message_base.dart';
-import 'package:chat_ui_kit/src/utils/selection_event.dart';
-import 'package:chat_ui_kit/src/widgets/core/message_input.dart';
+import 'package:chat_ui_kit2/src/models/message_base.dart';
+import 'package:chat_ui_kit2/src/utils/selection_event.dart';
+import 'package:chat_ui_kit2/src/widgets/core/message_input.dart';
 
 /// Represents the position of a [MessageBase] relative to others
 enum MessagePosition {

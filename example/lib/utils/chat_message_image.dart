@@ -1,4 +1,4 @@
-import 'package:chat_ui_kit/chat_ui_kit.dart';
+import 'package:chat_ui_kit2/chat_ui_kit2.dart';
 import 'package:flutter/material.dart';
 
 /// Edited version of the default [ChatMessageImage] to load from assets
