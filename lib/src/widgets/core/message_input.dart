@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 /// 3. Override [textController]
 /// 4. Call [attachTypingListener] when creating your class
 /// [MessageInput] will give you an example.
-abstract class MessageInputTypingHandler {
+abstract mixin class MessageInputTypingHandler {
   /// If the user starts typing and stops for [idleStopDelay],
   /// a [TypingEvent.stop] will be emitted
   /// Defaults to 5 seconds, override at will;

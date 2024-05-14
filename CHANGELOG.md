@@ -1,3 +1,5 @@
+## [1.6.0] - 14/05/2024
+* Updated dependencies to work with flutter 3.22
 ## [1.5.0] - 22/05/2023
 * Updated dependencies to work with flutter 3.7
 * Small adjustments to docs

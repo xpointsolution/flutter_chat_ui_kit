@@ -80,7 +80,7 @@ class _ChatMessageAudioState extends State<ChatMessageAudio> {
         future: _duration,
         builder: (BuildContext context, snapshot) {
           Widget _durationWidget;
-          final _dur = snapshot.data as Duration?;
+          final _dur = snapshot.data;
           if (snapshot.connectionState == ConnectionState.done &&
               _dur != null) {
             _durationWidget = Text(_timeLeft.verboseDuration,
