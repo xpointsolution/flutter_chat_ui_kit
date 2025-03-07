@@ -1,13 +1,9 @@
-import 'dart:io';
 import 'dart:typed_data';
-
 import 'package:chat_ui_kit2/src/models/message_base.dart';
 import 'package:chat_ui_kit2/src/utils/enums.dart';
-import 'package:chat_ui_kit2/src/utils/extensions.dart';
 import 'package:chat_ui_kit2/src/widgets/core/messages_list_tile.dart';
 import 'package:chat_ui_kit2/src/widgets/helpers/message_container.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_video_info/flutter_video_info.dart';
 import 'package:video_thumbnail/video_thumbnail.dart';
 
 /// A default Widget that can be used to show a video preview.
@@ -34,14 +30,14 @@ class ChatMessageVideo extends StatefulWidget {
 }
 
 class _ChatMessageVideoState extends State<ChatMessageVideo> {
-  Future<VideoData?>? _videoData;
+  // Future<VideoData?>? _videoData;
   Future<Uint8List?>? _videoThumbnail;
 
   double get _maxSize => MediaQuery.of(context).size.width * 0.5;
 
   @override
   void initState() {
-    _videoData = getVideoInfo(File(widget.message.url));
+    //_videoData = getVideoInfo(File(widget.message.url));
     _videoThumbnail = VideoThumbnail.thumbnailData(
       video: widget.message.url,
       imageFormat: ImageFormat.JPEG,
@@ -52,11 +48,11 @@ class _ChatMessageVideoState extends State<ChatMessageVideo> {
     super.initState();
   }
 
-  /// Retrieve video metaData
-  Future<VideoData?> getVideoInfo(File file) {
-    final videoInfo = FlutterVideoInfo();
-    return videoInfo.getVideoInfo(file.path);
-  }
+  // /// Retrieve video metaData
+  // Future<VideoData?> getVideoInfo(File file) {
+  //   final videoInfo = FlutterVideoInfo();
+  //   return videoInfo.getVideoInfo(file.path);
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -66,20 +62,20 @@ class _ChatMessageVideoState extends State<ChatMessageVideo> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(Icons.videocam),
-            FutureBuilder(
-                future: _videoData,
-                builder: (BuildContext context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.done &&
-                      snapshot.data != null) {
-                    final data = snapshot.data as VideoData;
-                    return Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 8),
-                        child: Text(
-                            Duration(milliseconds: data.duration!.toInt())
-                                .verboseDuration));
-                  }
-                  return Container();
-                }),
+            // FutureBuilder(
+            //     future: _videoData,
+            //     builder: (BuildContext context, snapshot) {
+            //       if (snapshot.connectionState == ConnectionState.done &&
+            //           snapshot.data != null) {
+            //         final data = snapshot.data as VideoData;
+            //         return Padding(
+            //             padding: EdgeInsets.symmetric(horizontal: 8),
+            //             child: Text(
+            //                 Duration(milliseconds: data.duration!.toInt())
+            //                     .verboseDuration));
+            //       }
+            //       return Container();
+            //     }),
             Spacer(),
             MessageFooter(widget.message)
           ],

@@ -1,3 +1,8 @@
+## [1.7.0] - 07/03/2025
+* Updated dependencies to work with flutter 3.29
+* Removed unmaintaned flutter_video_info 
+* Refactored example - flutter-gradle-plugin-apply
+* Added fvm config
 ## [1.6.0] - 14/05/2024
 * Updated dependencies to work with flutter 3.22
 ## [1.5.0] - 22/05/2023
